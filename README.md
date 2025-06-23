@@ -19,6 +19,10 @@ converter.py is written almost in entirety by ChatGPT, due to this being a side 
 
 JSON structure is as follows: JSON is a dictionary of all the books in the tanakh, eg "1 Chr". Each dictionary entry contains a list of chapters, and each chapter is in turn a list of verses, which is a list of words.
 
+# To quickly download just the JSON, no nonsense
+
+Use this: ```curl -L https://raw.githubusercontent.com/Rikartt/Hebrew-Bible-JSON-with-Nikkud/main/hebrew_bible_with_nikkud.json -o hebrew_bible_with_nikkud.json```
+
 # License
 
 MIT License 
